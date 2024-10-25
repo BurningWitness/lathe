@@ -1,4 +1,4 @@
-cabal-version:  3.0
+cabal-version:   3.0
 
 name:            lathe
 version:         0.1.0.0
@@ -10,14 +10,18 @@ description:
 license:         BSD-3-Clause
 license-file:    LICENSE
 author:          Oleksii Divak
-maintainer:      Oleksii Divak
-homepage:        https://github.com/burningwitness/lathe
+maintainer:      Oleksii Divak <frozenwitness@gmail.com>
 category:        Parsing
 build-type:      Simple
 extra-doc-files:
   CHANGELOG.md
   README.md
 
+
+source-repository head
+  type:     git
+  location: https://github.com/BurningWitness/lathe.git
+  subdir:   lathe
 
 
 library
@@ -51,7 +55,6 @@ library
   ghc-options:      -Wall
 
   default-language: Haskell2010
-
 
 
 test-suite properties
